@@ -1,9 +1,29 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 html{
     font-size: 62.5%;
 }
+
 body{
     background-color: pink;
     font-size: 1.4rem;
+}
+
+.main-container{
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex-grow: 1;
+    max-height: 100vh;
+    height: 100vh;
 }
 
 .container{
@@ -11,7 +31,7 @@ body{
     max-width: 96vw;
     margin: 0 auto;
     box-sizing: border-box;
-    padding: 0 .8rem;
+    padding: .8rem;
 }
 .container-fluid{
     border: 2px dotted orange;
@@ -19,15 +39,6 @@ body{
     margin: 0 auto;
     box-sizing: border-box;
     padding: 0;
-}
-
-header
-{
-
-}
-
-footer{
-
 }
 
 /* media queries */
