@@ -6,11 +6,19 @@ body{
     font-size: 1.4rem;
 }
 
+.container{
+    border: 2px dotted blue;
+    max-width: 96vw;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
 header
 {
-    background-color: red;
+
 }
 
 footer{
-    background-color: red;
 }
+
+/* media queries */
